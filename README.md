@@ -52,17 +52,8 @@ And daily bank income information is alos available to reach.
 
 ## Architecture:
 
->bank pakage
->>atm pakage
->>>ATM class
->>employee pakage
->>>Employee class
->>>Manager class
+>Bank
+>>ATM
+>>Employee
+>>>Manager
 
-bank pakage         
-|__atm pakage       
-|   |__ATM                
-|__employee       
-|    |__Employee        
-|          |__Manager       
-|__Bank       
