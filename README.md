@@ -59,10 +59,10 @@ And daily bank income information is alos available to reach.
 >>>Employee class
 >>>Manager class
 
-bank pakage
-|__atm pakage
-|   |__ATM  
-|__employee
-|    |__Employee
-|          |__Manager
-|__Bank
+bank pakage         
+|__atm pakage       
+|   |__ATM                
+|__employee       
+|    |__Employee        
+|          |__Manager       
+|__Bank       
