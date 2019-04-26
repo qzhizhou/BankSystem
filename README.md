@@ -53,7 +53,11 @@ And daily bank income information is alos available to reach.
 ## Architecture:
 
 >Bank
->>ATM
->>Employee
->>>Manager
+>>ATM, Employee
+>>>Manager    
+
+* Bank is the super class, it contains attribute of customer information and manager information.     
+* ATM is a subclass of Bank. It mainly support functionalities that are shown in the user interface.     
+* Employee is a subclass of Bank.
+* Manager is a subclass of Employee.
 
