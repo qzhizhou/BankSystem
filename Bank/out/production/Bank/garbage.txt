@@ -1,0 +1,22 @@
+JLabel dollarLabel = new JLabel("Dollar: ");
+dollarLabel.setBounds(200, 150,80,25);
+panel.add(dollarLabel);
+JTextField dollarText = new JTextField("0");
+dollarText.setBounds(300,150,150,25);
+panel.add(dollarText);
+
+JLabel rmbLabel = new JLabel("RMB: ");
+rmbLabel.setBounds(200, 200,80,25);
+panel.add(rmbLabel);
+JTextField rmbText = new JTextField("0");
+rmbText.setBounds(300,200,150,25);
+panel.add(rmbText);
+
+JLabel euroLabel = new JLabel("Euro: ");
+euroLabel.setBounds(200, 250,80,25);
+panel.add(euroLabel);
+JTextField euroText = new JTextField("0");
+euroText.setBounds(300,250,150,25);
+panel.add(euroText);
+
+
