@@ -49,3 +49,12 @@ At this page, a user could view his/her transactions.
 ![](https://github.com/qzhizhou/BankSystem/blob/master/pic/manager_operation_page.png)
 At this page, a manager is able to view all the transactions as well as transactions of a certain customer.       
 And daily bank income information is alos available to reach. 
+
+## Architecture:
+
+>bank pakage
+>>atm pakage
+>>>ATM class
+>>employee pakage
+>>>Employee class
+>>>Manager class
